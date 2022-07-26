@@ -289,6 +289,14 @@ img{
     row-gap: 1rem;
 }
 
+.icono-linkedin{
+    color: #0E76A8;
+}
+
+.icono-github{
+    color: black;
+}
+
 .home__social-icon{
     font-size: 1.25rem;
     color: var(--firts-color);
@@ -303,7 +311,7 @@ img{
 }
 
 .home-img{
-    height: 20rem;
+    height: 19rem;
     border-radius: 10%;
 }
 
@@ -674,6 +682,7 @@ img{
 
 .contact__information{
     display: flex;
+    flex-direction: row;
     margin-bottom: var(--mb-2);
 }
 
@@ -855,7 +864,7 @@ img{
     }
 
     .contact__contenedor-buttons{
-        justify-content: space-between;
+        justify-content: flex-end;
     }
 
     .footer__container{
@@ -948,7 +957,7 @@ img{
 
     .footer__links{
         flex-direction: row;
-        column-gap: 1.5rem;
+        column-gap: 1rem;
     }
 
     .footer__social{
