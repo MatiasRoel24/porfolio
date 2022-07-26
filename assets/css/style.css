@@ -196,10 +196,6 @@ img{
     font-weight: var(--font-medium);
 }
 
-.nav__logo:hover{
-    color: var(--firts-color);
-}
-
 .nav__toggle{
     font-size: 1.1rem;
     cursor: pointer;
@@ -314,6 +310,11 @@ img{
     height: 19rem;
     border-radius: 10%;
 }
+
+/* .home-img:hover{
+    transform: scale(1.2,1.2);
+    transition: 0.5s;
+} */
 
 .home__title{
     font-size: var(--big-font-size);
