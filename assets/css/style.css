@@ -451,7 +451,7 @@ img{
 
 .skills__list{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .skills__header{
@@ -588,6 +588,7 @@ img{
 
 .certificates{
     margin-top: 2rem;
+    margin-bottom: 5rem;
 }
 
 .cerfiticates__container{
@@ -674,6 +675,10 @@ img{
 
 
 /* =============== CONTACT ME =============== */
+
+.contact{
+    margin-top: 5rem;
+}
 
 .contact__container{
     row-gap: 3rem;
@@ -1016,6 +1021,7 @@ img{
     }
 
     .about__img{
-        padding-left: 10rem;
+        height: 12rem;
+        width: 20rem;
     }
 }
